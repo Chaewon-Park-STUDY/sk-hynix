@@ -9,6 +9,7 @@ AI 코딩 에이전트(Codex)와 과제를 수행할 때 쓰는 **개인 작업 
 - `templates/WORKLOG.md` — 결정·검증 기록 빈 양식
 - `templates/FINAL_CHECK.md` — 제출 전 점검표
 - `setup.sh` — 위 파일을 작업 폴더로 복사
+- `PROMPTS.md` — 단계별 Codex 요청 문구 예시
 
 ## 사용법 (작업 폴더에서)
 ```bash
@@ -18,4 +19,5 @@ bash sk-hynix/setup.sh
 
 ## 원칙
 - 과제 README와 운영 안내가 이 문서보다 항상 우선합니다.
-- 이 저장소는 공개 상태로 유지합니다.
+- 이 저장소는 2차 예선 결과 통지 전까지 공개 상태로 유지합니다.
+- `setup.sh`는 기존 파일을 덮어쓰지 않습니다.
